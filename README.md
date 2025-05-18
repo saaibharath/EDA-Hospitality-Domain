@@ -1,51 +1,82 @@
-# EDA-Hospitality-Domain
+# 📊 EDA Project – Hospitality Domain: AtliQ Grands
 
-## 📌 Project Overview
-AtliQ Grands, a five-star hotel chain in India, has been facing declining market share and revenue due to strategic moves from competitors and ineffective decision-making. To regain its competitive position, the company aims to leverage **Business and Data Intelligence** but lacks an in-house analytics team. This project performs **Exploratory Data Analysis (EDA)** on historical data to generate insights that can assist in revenue management.
+## 🧩 Project Overview  
+**AtliQ Grands**, a five-star hotel chain in India, has experienced a decline in both **market share and revenue**, primarily due to **competitive pressure** and **ineffective strategic decision-making**. With no internal analytics capability, the company seeks to adopt a **data-driven approach** through **Business and Data Intelligence**. This project performs **Exploratory Data Analysis (EDA)** on historical booking data to uncover actionable insights that can support **revenue optimization** and **strategic planning**.
 
-## 🏨 Domain: Hospitality  
-**Function:** Revenue Management  
+---
 
-## 📊 Objectives
-This project focuses on the following key areas:
-- **Data Import & Exploration**: Understanding aggregate bookings.
-- **Data Cleaning**: Handling invalid guest data and removing revenue outliers.
-- **Data Transformation**: Creating an occupancy percentage metric.
-- **Insights Generation**:
-  - Revenue realized per hotel type.
-  - Average rating per city.
-  - Revenue distribution across different booking platforms using visualizations.
+## 🏨 Industry Domain: Hospitality  
+**Focus Area:** Revenue Management  
 
-## 📁 Dataset Description
-The dataset consists of historical booking data from AtliQ Grands, covering aspects such as:
-- Hotel type
-- Booking platform
-- Guest details
-- Revenue generated
-- Ratings and occupancy details
+---
 
-## 🛠️ Tools & Technologies Used
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
-- **Data Visualization:** Matplotlib, Seaborn
-- **Jupyter Notebook:** For analysis and visualization
+## 🎯 Project Objectives  
+The key objectives of this EDA project are:
 
-## 🔥 Project Workflow
-1. **Data Import & Exploration**
-   - Load the dataset and explore aggregate bookings.
-2. **Data Cleaning**
-   - Remove invalid guest data.
-   - Identify and remove revenue outliers.
-3. **Data Transformation**
-   - Calculate and add an occupancy percentage column.
-4. **Insights Generation & Visualization**
-   - Compute revenue realized per hotel type.
-   - Compute average rating per city.
-   - Generate a pie chart showing revenue distribution per booking platform
-## 📊 Results & Insights
-- The revenue trends indicate that **luxury hotels generate higher revenue**, but occupancy rates fluctuate.
-- **City-wise analysis** shows that certain locations have consistently **higher ratings** than others.
-- Booking platforms play a crucial role, with **one platform driving the majority of the revenue**.
+- 📥 **Data Import & Exploration**  
+  Understand the overall booking trends and volume.
 
-## 📜 Conclusion
-The insights derived from this analysis can help AtliQ Grands **optimize pricing, improve customer satisfaction, and refine their booking strategies** to regain market share and maximize revenue.
+- 🧹 **Data Cleaning**  
+  Address data quality issues, including invalid guest entries and revenue outliers.
+
+- 🔄 **Data Transformation**  
+  Derive new metrics such as **Occupancy Percentage** to support deeper analysis.
+
+- 💡 **Insight Generation & Visualization**  
+  - Analyze **revenue trends by hotel type**  
+  - Examine **average customer ratings by city**  
+  - Visualize **revenue contribution by booking platform**
+
+---
+
+## 📁 Dataset Overview  
+The dataset includes comprehensive historical booking records with the following key features:
+- Hotel type (Luxury, Budget, etc.)
+- Booking platform (Online, Travel agents, Direct, etc.)
+- Guest demographics
+- Revenue generated per booking
+- Customer ratings and occupancy details
+
+---
+
+## ⚙️ Tools & Technologies  
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Environment:** Jupyter Notebook  
+
+---
+
+## 🔄 Workflow Breakdown  
+1. **Data Import & Initial Exploration**  
+   - Load dataset  
+   - Understand the booking volume across hotels and time  
+
+2. **Data Cleaning**  
+   - Remove invalid guest entries  
+   - Detect and eliminate revenue outliers  
+
+3. **Data Transformation**  
+   - Calculate occupancy percentage as a new metric  
+
+4. **Insight Generation & Visualization**  
+   - Revenue trends by hotel type  
+   - City-wise average ratings  
+   - Booking platform-wise revenue distribution (Pie Chart)
+
+---
+
+## 📈 Key Findings  
+- **Luxury hotels generate the highest revenue**, though their occupancy rates vary significantly.  
+- Certain **cities consistently outperform others** in terms of guest ratings.  
+- **One booking platform dominates revenue share**, suggesting a possible over-dependence or a key partnership opportunity.
+
+---
+
+## ✅ Conclusion  
+The insights gained from this exploratory analysis provide a foundation for **informed decision-making** in revenue management. By leveraging these findings, **AtliQ Grands** can:
+
+- Optimize pricing strategies  
+- Enhance guest experience based on city-specific insights  
+- Strengthen or diversify booking platform partnerships  
+
+Ultimately, this data-driven approach can help the company **regain market share**, **maximize profitability**, and **stay competitive** in the evolving hospitality landscape.
